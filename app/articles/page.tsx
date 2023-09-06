@@ -1,8 +1,10 @@
 import Image from 'next/image'
+import Hamburger from '@/components/hamburger'
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between p-24">
+      <Hamburger />
       {/* First section */}
       <section className="flex flex-col items-center justify-center w-full h-screen bg-gray-100">
         <h1 className="text-4xl font-bold mb-4">Big Header Text</h1>
